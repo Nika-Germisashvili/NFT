@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(43, 43, 43, 1);
+}
+
+@font-face {
+  font-family: "worksans-regular";
+  src: url(fonts/WorkSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "worksans-semibold";
+  src: url(fonts/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "spacemono-bold";
+  src: url(fonts/SpaceMono-Bold.ttf);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.img1 {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.img2 {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 3.6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a1, .a2, .a3 {
+ color: rgba(255, 255, 255, 1);
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 140%;
+ font-family: "worksans-semibold";
+}
+
+.a3, .a2 {
+  margin-left: 50px;
+}
+
+button, input[type="submit"] {
+  border: none;
+  background: rgba(162, 89, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "worksans-semibold";
+}
+
+.navbutton {
+  width: 152px;
+  height: 60px;
+  margin-left: 30px;
+  padding-right: 30px;
+}
+
+.userpic {
+  width: 20px;
+  height: 20px;
+  margin: 0px 12px 0px 30px;
+  float: left;
+}
+
+
+.create-account-section {
+  width: 100%;
+  height: 691px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-image {
+  width: 610px;
+  height: 691px;
+  background-image: url(images/background.png);
+}
+
+.right {
+  width: 670px;
+  height: 691px;
+  padding: 100px 150px 0px 0px;
+  text-align: left;
+  position: relative;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-family: "worksans-semibold";
+}
+
+.p2 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  font-family: "worksans-regular";
+  margin-top: 20px;
+}
+
+.form1 {
+  width: 330px;
+  height: 305px;
+  margin-top: 40px;
+}
+
+input[type="text"], 
+.em1,
+input[type="password"] {
+  background: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 46px;
+  border: 1px solid rgba(133, 133, 132, 1);
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-left: 52px;
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(43, 43, 43, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "worksans-regular";
+}
+
+.user2 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  margin: 28px 0px 0px 20px;
+}
+
+.subm1 {
+  width: 330px;
+  height: 46px;
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 334px;
+  background: rgba(59, 59, 59, 1);
+  padding-top: 40px;
+}
+
+.footer-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nft {
+  width: 328px;
+  height: 192px;
+}
+
+.footerp, .footerp1, .footerp2 {
+  color: rgba(204, 204, 204, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "worksans-regular";
+}
+
+.footerp1 {
+  margin-top: 30.4px;
+}
+
+.footerp2 {
+  margin: 20px 0px 15px 0px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.link2 {
+  width: 32px;
+  height: 32px;
+}
+
+.explore {
+  width: 240px;
+  height: 166px;
+  margin: 0 31px;
+}
+
+h5 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  font-family: "spacemono-bold";
+  margin-bottom: 25px;
+}
+
+.lk {
+  color: rgba(204, 204, 204, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "worksans-regular";
+}
+
+.tp {
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  width: 420px;
+  height: 184px;
+}
+
+.footerp {
+  margin-bottom: 20px;
+}
+
+.sub {
+  width: 179px;
+  height: 60px;
+  position: absolute;
+  margin-left: 241px;
+}
+
+.em {
+  background: rgba(255, 255, 255, 1);
+  width: 420px;
+  height: 60px;
+  border: 1px solid rgba(133, 133, 132, 1);
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+}
+
+.form2 {
+  width: 420px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.rs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hg {
+  width: 1050px;
+}
+
+.hr2 {
+  background: rgba(133, 133, 132, 1);
+  border: 1px solid rgba(133, 133, 132, 1);
+  width: 1050px;
+  height: 0px;
+  margin-top: 37px;
+}
+
+.p-2 {
+  color: rgba(204, 204, 204, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  margin-top: 20px;
+  font-family: "worksans-regular";
+}
+
+span {
+  color: rgba(59, 59, 59, 1);
+}
