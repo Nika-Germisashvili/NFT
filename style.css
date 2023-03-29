@@ -94,9 +94,11 @@ button, input[type="submit"] {
 }
 
 .left-image {
-  width: 610px;
+  width: 50%;
   height: 691px;
   background-image: url(images/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .right {
