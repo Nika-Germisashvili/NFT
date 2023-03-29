@@ -98,7 +98,7 @@ button, input[type="submit"] {
   height: 691px;
   background-image: url(images/background.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 
 .right {
